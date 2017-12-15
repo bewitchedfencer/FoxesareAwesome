@@ -44,4 +44,8 @@ $(document).ready(function(){
         });
     
       });
+<<<<<<< HEAD
       
+=======
+      
+>>>>>>> e1a9023bb9a2d31d2fe3c8d9d30fd9f64dc78e52
