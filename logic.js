@@ -24,7 +24,7 @@ $(document).ready(function(){
         });
     $("button").on("click", function(){
       console.log("button pressed");
-      window.location.replace("https://secure.meetup.com/oauth2/authorize?client_id=cpsr00tinv92148bp4d3vtmfic&response_type=token&redirect_uri=https://bewitchedfencer.github.io/FoxesareAwesome/")
+      window.location.replace("https://secure.meetup.com/oauth2/authorize?client_id=cpsr00tinv92148bp4d3vtmfic&response_type=token&redirect_uri=https://bewitchedfencer.github.io/FoxesareAwesome/");
     })
       
     
@@ -45,5 +45,3 @@ $(document).ready(function(){
         });
     
       });
-      
-      
