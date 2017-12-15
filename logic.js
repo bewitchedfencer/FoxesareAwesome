@@ -22,7 +22,9 @@ $(document).ready(function(){
           userLong=response.results[0].geometry.location.lng;
           
         });
-    
+    $("button").on("click", function(){
+      window.location.replace("https://secure.meetup.com/oauth2/authorize?client_id=cpsr00tinv92148bp4d3vtmfic&response_type=token&redirect_uri=https://bewitchedfencer.github.io/FoxesareAwesome/")
+    })
       
     
       // ajax function call for landing page ... meet-ups
@@ -42,3 +44,4 @@ $(document).ready(function(){
         });
     
       });
+      
